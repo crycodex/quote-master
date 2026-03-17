@@ -59,12 +59,12 @@ const HeroSection = () => {
           </div>
 
           {/* Right: Phone Mockup */}
-          <div className="flex justify-center md:justify-end">
+          <div className="flex justify-center md:justify-end m-12">
             <div className="relative">
               <img
                 src={heroMockup}
                 alt="Scope IT app mostrando el constructor de cotizaciones"
-                className="w-72 md:w-80 lg:w-96 animate-float drop-shadow-2xl"
+                className="w-52 md:w-60 lg:w-72 animate-float drop-shadow-2xl rounded-lg"
               />
               {/* Floating stat cards */}
               <div className="absolute -left-8 top-1/3 neo-card p-3 text-center animate-float" style={{ animationDelay: "0.5s" }}>
