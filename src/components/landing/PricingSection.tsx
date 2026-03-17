@@ -69,9 +69,6 @@ const PricingSection = () => {
                   </li>
                 ))}
               </ul>
-              <Button variant={tier.accent ? "default" : "outline"} className="w-full">
-                Seleccionar
-              </Button>
             </div>
           ))}
         </div>
